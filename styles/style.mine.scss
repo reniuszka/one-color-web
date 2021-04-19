@@ -1,0 +1,58 @@
+// 1rem = 10px
+//global styles
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Lobster', sans-serif;
+  font-weight: lighter;
+}
+
+h2 {
+  font-size: 6rem;
+  font-family: 'Lobster', sans-serif;
+  font-weight: lighter;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.7rem;
+}
+
+p {
+  font-size: 2.2rem;
+}
+
+li {
+  font-size: 1.8rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+@import 'home';
+
+@import 'features';
+
+@import 'soon';
+
+@import 'footer';
+
+@import 'mobile';

@@ -1,0 +1,19 @@
+{
+  "name": "one-color-web",
+  "version": "1.0.0",
+  "description": "one-color-web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "deploy": "gh-pages -d dist",
+    "url": "one-color-web"
+  },
+  "author": "renia.dd",
+  "license": "ISC",
+  "homepage": "https://reniuszka.github.io/one-color-web",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
